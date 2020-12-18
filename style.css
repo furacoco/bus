@@ -1,0 +1,91 @@
+﻿@chraset "UTF-8";
+
+/* 全体のCSS */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+body{
+	color: #444;
+	background: url(img/body_bg.jpg);
+}
+
+.wrapper{
+	width: 718px;
+	height: 750px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 50px;
+}
+
+/* header */
+
+h1{
+	width: 274px;
+	float: left;
+}
+
+.nav{
+	width: 378px;
+	float: right;
+	margin-top: 50px;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+/* main */
+
+.main-img{
+	margin-bottom: 20px;
+}
+
+.section{
+	width: 718px;
+	margin-bottom: 50px;
+}
+
+.content01{
+	width: 232px;
+	float: left;
+	background: url(img/box_bg.jpg)  no-repeat bottom;
+	background-color: #ccc;
+}
+
+.content02{
+	width: 232px;
+	float: left;
+	margin-left: 11px;
+	background: url(img/box_bg.jpg)  no-repeat bottom;
+	background-color: #ccc;
+}
+
+.content03{
+	width: 232px;
+	float: right;
+	background: url(img/box_bg.jpg)  no-repeat bottom;
+	background-color: #ccc;
+}
+
+.text{
+	height: 150px;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+/* footer */
+
+footer{
+	background: url(img/footer_bg.jpg);
+	padding: 5px 20px;
+}
